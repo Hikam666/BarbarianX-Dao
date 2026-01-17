@@ -12,7 +12,6 @@ export default function AlphaCard({ caller, index }) {
       className="bg-dark-900 border-4 border-white shadow-brutal hover:shadow-none transition-all duration-200 p-5 md:p-6 relative overflow-hidden h-full flex flex-col"
     >
       <div className="relative z-10 flex flex-col h-full">
-        {/* Header - Stacking on small mobile */}
         <div className="flex items-start gap-3 md:gap-4 mb-4">
           <div className="relative shrink-0">
             <motion.div
@@ -65,12 +64,10 @@ export default function AlphaCard({ caller, index }) {
           </div>
         </div>
 
-        {/* Bio */}
         <p className="text-xs md:text-sm font-semibold text-gray-400 mb-4 line-clamp-3 italic">
           "{caller.bio}"
         </p>
 
-        {/* Performance - Spacing adjustment */}
         <div className="bg-dark-800 border-2 border-white p-3 md:p-4 mb-4 space-y-2 mt-auto">
           {[
             { label: 'Airdrops Found', val: caller.stats.airdropsFound, color: 'text-neon-cyan' },
@@ -82,8 +79,6 @@ export default function AlphaCard({ caller, index }) {
             </div>
           ))}
         </div>
-
-        {/* Social Buttons */}
         <div className="grid grid-cols-2 gap-2 md:gap-3">
           <motion.a
             href={caller.socialLinks.twitter}

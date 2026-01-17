@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 export default function Hero() {
   return (
     <div className="relative pt-24 md:pt-32 pb-16 md:pb-20 px-4 overflow-hidden">
-      {/* Doodle Background Elements */}
       <motion.div
         animate={{ y: [0, -30, 0], rotate: [0, 10, 0] }}
         transition={{ duration: 8, repeat: Infinity }}
@@ -18,7 +17,6 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          {/* Badge */}
           <motion.div
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
@@ -35,7 +33,6 @@ export default function Hero() {
             </span>
           </motion.div>
 
-          {/* Main Title */}
           <motion.h1
             className="text-5xl sm:text-7xl md:text-8xl font-black mb-6 leading-[0.9] md:leading-none break-words uppercase"
             animate={{ y: [0, -5, 0] }}
@@ -57,10 +54,8 @@ export default function Hero() {
           <p className="text-lg md:text-2xl text-gray-400 max-w-2xl mx-auto mb-10 font-bold uppercase px-4">
             All I need is <span className="text-white font-black">'You Are Eligible'</span>!
           </p>
-
-          {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center px-4">
-            {/* Explore Airdrops Link */}
+
             <a href="#airdrop-list" className="w-full sm:w-auto">
               <motion.button
                 whileHover={{ x: 4, y: 4 }}
@@ -71,7 +66,6 @@ export default function Hero() {
               </motion.button>
             </a>
             
-            {/* Join Community Link - Telegram */}
             <a 
               href="https://t.me/AirdropBarbarianX" 
               target="_blank" 

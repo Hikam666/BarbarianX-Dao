@@ -5,7 +5,6 @@
 @layer base {
   body {
     @apply bg-dark-950 text-white antialiased;
-    /* Background gradient diperhalus untuk mobile */
     background-image: 
       radial-gradient(circle at 10% 20%, rgba(0, 245, 255, 0.08) 0%, transparent 25%),
       radial-gradient(circle at 90% 80%, rgba(255, 16, 240, 0.08) 0%, transparent 25%);
@@ -14,7 +13,6 @@
 }
 
 @layer components {
-  /* Tombol Brutalist yang menyesuaikan ukuran di mobile */
   .btn-brutal {
     @apply px-4 py-2 md:px-6 md:py-3 font-black border-2 md:border-4 border-white text-white uppercase
            shadow-[4px_4px_0px_0px_#fff] md:shadow-brutal 
@@ -28,7 +26,6 @@
   }
 }
 
-/* Scrollbar Custom */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -41,7 +38,6 @@
   @apply bg-neon-cyan border-2 border-white;
 }
 
-/* Animasi Marquee untuk Footer */
 @keyframes marquee {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
@@ -52,13 +48,11 @@
   animation: marquee 20s linear infinite;
 }
 
-/* Perbaikan untuk elemen yang meluap di mobile */
 .overflow-fix {
   max-width: 100vw;
   overflow-x: hidden;
 }
 
-/* Animasi melayang untuk doodle */
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(0); }
   50% { transform: translateY(-10px) rotate(2deg); }

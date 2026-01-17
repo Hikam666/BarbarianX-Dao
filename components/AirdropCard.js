@@ -28,7 +28,6 @@ export default function AirdropCard({ airdrop, index }) {
       }}
       className="group"
     >
-      {/* Menggunakan tag a untuk navigasi internal agar kompatibel dengan pratinjau */}
       <a href={`/airdrop/${airdrop.id}`}>
         <div className="bg-dark-900 border-4 border-white shadow-brutal hover:shadow-none transition-all duration-200 overflow-hidden h-full">
           {/* Header */}

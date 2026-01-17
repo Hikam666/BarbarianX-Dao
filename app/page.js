@@ -27,9 +27,6 @@ export default function Home() {
     <>
       <Hero />
 
-      {/* ID "airdrop-list" diletakkan pada tag <section> di bawah ini.
-          "scroll-mt-24" ditambahkan agar saat bergulir, bagian atas daftar tidak tertutup Navbar.
-      */}
       <section id="airdrop-list" className="py-8 md:py-12 px-4 relative overflow-hidden scroll-mt-24">
         {/* Doodle Background Elements */}
         <div className="hidden md:block">

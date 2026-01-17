@@ -3,7 +3,6 @@ import './globals.css';
 import Navbar from '../components/Navbar'; 
 import Footer from '../components/Footer';
 
-// Menggunakan variable font agar mendukung semua weight yang tersedia secara otomatis
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
   variable: '--font-space-grotesk',
