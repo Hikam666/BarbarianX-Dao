@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { ArrowRight, TrendingUp, Clock } from 'lucide-react';
 
 export default function AirdropCard({ airdrop, index }) {
@@ -28,7 +29,7 @@ export default function AirdropCard({ airdrop, index }) {
       }}
       className="group"
     >
-      <a href={`/airdrop/${airdrop.id}`}>
+      <Link href={`/airdrop/${airdrop.id}`}>
         <div className="bg-dark-900 border-4 border-white shadow-brutal hover:shadow-none transition-all duration-200 overflow-hidden h-full">
           {/* Header */}
           <div className={`${bgColor} p-5 md:p-6 border-b-4 border-white relative overflow-hidden`}>
@@ -104,7 +105,7 @@ export default function AirdropCard({ airdrop, index }) {
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     </motion.div>
   );
 }

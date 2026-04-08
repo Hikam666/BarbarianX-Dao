@@ -83,6 +83,7 @@ export default function AlphaCard({ caller, index }) {
           <motion.a
             href={caller.socialLinks.twitter}
             target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ x: 2, y: 2 }}
             className="py-2.5 bg-dark-800 border-2 border-white hover:border-neon-cyan transition-colors flex items-center justify-center gap-2 font-black uppercase text-[10px] md:text-xs"
           >

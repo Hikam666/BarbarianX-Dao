@@ -24,10 +24,10 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-4">
-            <a href="https://t.me/AirdropBarbarianX" target="_blank" className="w-20 h-16 border-4 border-white flex items-center justify-center hover:bg-neon-cyan hover:text-dark-950 transition-all shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] active:shadow-none active:translate-x-1 active:translate-y-1">
+            <a href="https://t.me/AirdropBarbarianX" target="_blank" rel="noopener noreferrer" className="w-20 h-16 border-4 border-white flex items-center justify-center hover:bg-neon-cyan hover:text-dark-950 transition-all shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] active:shadow-none active:translate-x-1 active:translate-y-1">
               <Send size={28} />
             </a>
-            <a href="https://x.com/Team_BarbarianX" target="_blank" className="w-20 h-16 border-4 border-white flex items-center justify-center hover:bg-neon-pink hover:text-dark-950 transition-all shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] active:shadow-none active:translate-x-1 active:translate-y-1">
+            <a href="https://x.com/Team_BarbarianX" target="_blank" rel="noopener noreferrer" className="w-20 h-16 border-4 border-white flex items-center justify-center hover:bg-neon-pink hover:text-dark-950 transition-all shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] active:shadow-none active:translate-x-1 active:translate-y-1">
               <Twitter size={28} />
             </a>
             <a href="#" className="w-20 h-16 border-4 border-white flex items-center justify-center hover:bg-neon-yellow hover:text-dark-950 transition-all shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] active:shadow-none active:translate-x-1 active:translate-y-1">

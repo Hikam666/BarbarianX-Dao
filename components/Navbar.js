@@ -87,20 +87,24 @@ export default function Navbar() {
                 BarbarianX Staff
               </Link>
               <div className="flex flex-col space-y-4">
-                <Link
+                <a
                   href="https://t.me/AirdropBarbarianX"
                   onClick={() => setMobileMenuOpen(false)}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white hover:text-neon-cyan font-black py-4 border-b-2 border-white/10"
                 >
                   Telegram
-                </Link>
-                <Link
+                </a>
+                <a
                   href="https://x.com/Team_BarbarianX"
                   onClick={() => setMobileMenuOpen(false)}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white hover:text-neon-cyan font-black py-4 border-b-2 border-white/10"
                 >
                   Twitter
-                </Link>
+                </a>
               </div>
             </div>
           </motion.div>

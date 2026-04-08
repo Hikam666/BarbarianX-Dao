@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -56,7 +57,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center px-4">
 
-            <a href="#airdrop-list" className="w-full sm:w-auto">
+            <Link href="#airdrop-list" className="w-full sm:w-auto">
               <motion.button
                 whileHover={{ x: 4, y: 4 }}
                 whileTap={{ scale: 0.95 }}
@@ -64,7 +65,7 @@ export default function Hero() {
               >
                 Explore Airdrops →
               </motion.button>
-            </a>
+            </Link>
             
             <a 
               href="https://t.me/AirdropBarbarianX" 
